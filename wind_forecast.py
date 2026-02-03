@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-
+#This is for the PR testing procedure
 # Replace 'your_actual_api_key_here' with your actual OpenWeatherMap API key
 api_key = 'be01239f377a214b1fb7b6fa3dbd1841'
 
@@ -73,3 +73,4 @@ if __name__ == '__main__':
     
     print("Live Weather Streaming:")
     stream_weather_data(latitude, longitude, interval)
+
